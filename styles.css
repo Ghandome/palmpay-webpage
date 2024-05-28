@@ -1,0 +1,529 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pay {
+    width: 10em;
+    margin-left: 6em;
+    padding-top: 10px;
+}
+
+.ori-img {
+    position: relative;
+    top: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 40em;
+}
+
+ul li a:hover {
+
+}
+
+.h-flex {
+    margin-left: 14em;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.drop {
+    position: relative;
+    left: 70em;
+    bottom: 50px;
+}
+
+#country {
+    min-width: 10em;
+    padding: 6px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.finance {
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12rem;
+    padding-top: 15%;
+}
+
+.seam {
+    padding-top: 40px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5em;
+}
+
+#trol {
+    padding-left: 18em;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.store-1 {
+    width: 180px;
+}
+
+.store-2 {
+    width: 180px;
+}
+
+.store {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 59em;
+    padding-left: 32em;
+}
+
+.cbn {
+    width: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.lic {
+    position: relative;
+    top: 70px;
+}
+.nd {
+    width: 150px;
+    position: relative;
+    top: 50px;
+    right: 30px;
+    z-index: -1;
+}
+
+.depo {
+    position: relative;
+    top: 2px;
+}
+
+.momo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: darkgrey;
+    padding-left: 50px;
+}
+
+.feyin {
+    width: 75em;
+}
+
+.kere {
+    text-align: center;
+    padding-top: 10em;
+}
+
+.do {
+    background-color: black;
+    position: relative;
+    bottom: 15em;
+    z-index: -1;
+}
+
+#do {
+    padding-top: 8em;
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(lavender 50%, magenta 30%, #dfdfdf 20%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.more {
+    color: white;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#more {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+.smile {
+    width: 72em;
+}
+
+.ori {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: white;
+    height: 90px;
+}
+
+#earn {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    background-image: linear-gradient(#DAA520 30%, gold 20%, #CD7F32 50%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.with {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#with {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.earn {
+    padding-top: 10em;
+    text-align: center;
+    padding-bottom: 10em;
+}
+
+.dm {
+    text-align: center;
+}
+
+.girl {
+    width: 70em;
+}
+
+.im {
+    width: 492px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#your {
+    padding-left: 8em;
+    padding-top: 50px;
+}
+
+.pr {
+    position: relative;
+    left: 38em;
+    bottom: 31em;
+    border: 3px solid whitesmoke;
+    max-width: 39em;
+    min-height: 31em;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: whitesmoke;
+
+}
+
+#pr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 77px;
+    padding-left: 50px;
+    line-height: 50px;
+}
+
+.is {
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 50px;
+}
+
+#happy {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 2em;
+}
+
+.happy {
+    border: 3px solid whitesmoke;
+    max-width: 40em;
+    position: relative;
+    left: 8em;
+    background-color: whitesmoke;
+    bottom: 22em;
+}
+
+.pad {
+    padding-left: 4em;
+}
+
+.browse {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.info {
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact {
+    margin-top: 40px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid blue;
+    max-width: 7em;
+    text-align: center;
+    padding: 13px;
+    border-radius: 13px;
+    background-color: blueviolet;
+    border: 0;
+    color: #fff;
+    margin-bottom: 3em;
+}
+
+.m50 {
+    width: 500px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.set {
+    position: relative;
+    left: 48em;
+    bottom: 853px;
+}
+
+.blu {
+    position: relative;
+    bottom: 24em;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    border: 2px solid blueviolet;
+    padding: 30px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.i {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.join {
+    padding-left: 3em;
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.jp {
+    width: 150px;
+}
+
+.ap {
+    width: 150px;
+}
+
+.jump {
+    position: relative;
+    left: 4em;
+    top: 10px;
+}
+
+.foot {
+    background-color: black;
+}
+
+.pt1 {
+    width: 150px;
+    padding-top: 1em;
+}
+
+.pt2 {
+    width: 120px;
+    padding-top: 40px;
+    position: relative;
+    bottom: 5px;
+}
+
+.pti {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8em;
+}
+
+.ase {
+    display: flex;
+    flex-direction: column;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.personal {
+    position: relative;
+    left: 346px;
+    bottom: 14em;
+}
+
+
+#personal {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.ote {
+    color: #dfdfdf;
+}
+
+#business {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.align {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    left: 10em;
+    bottom: 19em;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.business {
+    position: relative;
+    left: 635px;
+    bottom: 21em;
+}
+
+.company {
+    color: whitesmoke;
+    position: relative;
+    left: 925px;
+    bottom: 33em;
+}
+
+.legal {
+    color: whitesmoke;
+    position: relative;
+    left: 76em;
+    bottom: 40em;
+}
+
+.copy {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 130px;
+    position: relative;
+    bottom: 32em;
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+}
+
+.font {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 14em;
+    position: relative;
+    bottom: 34em;
+    left: 65em;
+}
+
+.fa-instagram {
+    color: black;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: white;
+} 
+
+.fa-facebook {
+    color: black;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: #fff;
+}
+
+.fa-x-twitter {
+    color: black;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: #fff;
+}
+
+.fa-linkedin {
+    color: black;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: #fff;
+}
+
+.last {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 8em;
+    position: relative;
+    bottom: 30em;
+}
+
+.foot {
+    height: 40em; 
+}
+
+.your {
+    height: 90em;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        position: relative;
+        right: 10em;
+    }
+}
